@@ -1,12 +1,22 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.date{
+    opacity: 0.5;
 }
 
+.events__eventLink {
+    font-weight: bold;
+}
+
+.events__event {
+    margin-bottom: 2rem;
+}
+
+.events__eventDescription {
+    display: block;
+    font-style: italic;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
