@@ -46,7 +46,7 @@ class Events extends React.Component {
           <div className="eventsList">
             {items.map(item => (
               <div class="eventSumm" key={item.id}>
-                <Link to={'/events/' + item.slug}>{item.name}</Link>
+                <Link to={'/events/slug=' + item.slug}>{item.name}</Link>
                 <p class="events__eventDescription">{item.description}</p>
                 <p class="date">{Moment(item.created).format('d MMM YYYY')}</p>
               </div>
